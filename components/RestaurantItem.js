@@ -10,8 +10,7 @@ function RestaurantItem({ id, pictureId, name, description }) {
       <Image
         src={`https://restaurant-api.dicoding.dev/images/small/${pictureId}`}
         alt={name}
-        width={300}
-        height={200}
+        height="250px"
       />
 
       <Container>
