@@ -1,11 +1,12 @@
 import RestaurantList from '../components/RestaurantList';
 import styles from '../styles/Home.module.css';
+import Container from '../components/styled/Container';
 
 export default function Home({ restaurants }) {
   return (
-    <div className="container">
+    <Container>
       <RestaurantList restaurants={restaurants} />
-    </div>
+    </Container>
   );
 }
 
